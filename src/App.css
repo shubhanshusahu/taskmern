@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .displayCard {
+    flex-direction: column;
+  }
+}
+
+.formhorizontal{
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+.row{
+  display: flex;
+  margin: 20px;
+  max-height: 70px;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  align-items: center;
+}
+.imag {
+  margin: 4px;
+  width: auto;
+  border-radius: 7px;
+  height: 110px;
+}
+.displayCard{
+  display: flex;
+  margin: 20px;
+  background: #ffffff;
+  width: 51vw;
+  padding: 20px;
+  gap: 15px;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.insideText{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
